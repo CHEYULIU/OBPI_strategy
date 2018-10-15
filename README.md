@@ -2,8 +2,8 @@
 which is the program used to execute OBPI strategy
 
 ## Python code display (part)
-'''python
 
+ ``````python
 class monte_carlo:
     
     def __init__(self, start, end):
@@ -96,4 +96,4 @@ class monte_carlo:
             final_df[x] = V     
             self.final_df = final_df
             self.predicted_days = predicted_days    
-'''
+ ``````
